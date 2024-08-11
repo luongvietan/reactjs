@@ -27,6 +27,7 @@ class ClassComponent extends Component {
             count: this.state.count + 1
         })
     }
+
     componentDidUpdate(prevProps, prevState) {
         console.log(`componentDidUpdate: `, prevProps, prevState);
         if (prevState && prevState.count !== this.state.count && this.state.count === 10) {
