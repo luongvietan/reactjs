@@ -20,7 +20,7 @@ function App() {
         Count is {count}
       </button> */}
       <ClassComponent />
-      <FunctionComponent />
+      {/* <FunctionComponent /> */}
       {/* <ProductList dummyProductData={dummyProductData} name="Duelurker" job="Student"/> */}
     </div>
   );
