@@ -1,0 +1,9 @@
+.buttonStyle{
+    background-color: rgb(227, 224, 224);
+    font-weight: bold;
+}
+
+.productTitle{
+    font-size: 20px;
+    color: rgb(157, 157, 250);
+}
