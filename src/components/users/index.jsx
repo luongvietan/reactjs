@@ -12,7 +12,7 @@ const Users = () => {
             } else {
                 setUsersList([])
             }
-            console.log(`result : `, result.users);
+            console.log(result.users);
         } catch (error) {
             console.log(error);
         }
